@@ -30,8 +30,16 @@ echo "<br>";
 
 // Associative Array
 
-$couse = array("PHP" => 100.50, "JS" => 120.10, "Python" => 200.08);
-var_dump($couse);
+$course = array("PHP" => 100.50, "JS" => 120.10, "Python" => 200.08);
+foreach ($course as $key => $value) {
+
+    echo "my" . $key . "has" . $value . "milage <br>";
+}
+
+// Multi-demensional Array
+
+
+
 
 ?>
 
