@@ -36,7 +36,18 @@ foreach ($course as $key => $value) {
     echo "my" . $key . "has" . $value . "milage <br>";
 }
 
+echo "<br>";
+
 // Multi-demensional Array
+
+$lusCars = array(
+"Expensive" => array("Lanbogini", "Merceded", "Bentley"),
+"Inexpensive" => array("camery", "Honda", "Acura")
+);
+
+echo $lusCars["Inexpensive"][0];
+
+
 
 
 
